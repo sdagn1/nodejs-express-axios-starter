@@ -13,7 +13,7 @@ jobs:
       - name: Install NodeJS
         uses: actions/setup-node@v2
         with:
-          node-version: ${{ env.10.8.1 }}
+          node-version: 10.8.1
       - name: Code Checkout
         uses: actions/checkout@v2
       - name: Install Dependencies
